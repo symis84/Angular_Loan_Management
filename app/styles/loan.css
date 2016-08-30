@@ -1,0 +1,129 @@
+// Give the navigation some padding
+.nav {
+  margin: 10px 0;
+  
+  // Style the active links
+  a.active {
+    font-weight: bold;
+  }
+}
+
+#navBar{
+  display: none;
+}
+
+.navbar-nav{
+  height: auto;
+}
+
+.listLoans{
+  padding:10px;
+  background-color: #F2F2F2;
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+.loanTitle{
+  height: 35px;
+}
+
+.labelLoanDetails{
+  text-align: center;
+  height: 40px;
+}
+
+.loanDetailsVal{
+  text-align: center;
+}
+
+.labelLoanInvested{
+  text-align: right;
+  margin-top: 32px;
+  height: 30px;
+  color: #04B404;
+}
+
+.investLoan{
+  text-align: right;
+  height: 50%;
+}
+
+.investButton {
+    width: 115px;
+    height: 37px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #FFF!important;
+    background-color: #272628!important;
+    border-radius: 0;
+}
+
+.modalLoan{
+  height: 200px;
+}
+
+.modal-title{
+  font-weight: bold;
+}
+
+.amountModalLoan{
+  margin-top: 40px;
+}
+
+.investNowModalLoan{
+  margin-top: 10px;
+}
+
+.totalAmountAvailable{
+  text-align: center;
+}
+
+.inputModalLoan{
+  width: 130px;
+  height: 38px;
+}
+
+.totalAmountAvailableVal{
+  font-weight: bold;
+}
+
+@media (max-width: 991px) {
+  .loanDetailsVal{
+    text-align: right;
+  }
+}
+
+@media (max-width: 991px) {
+  .labelLoanDetails{
+    height: auto;
+    text-align: left;
+  }
+}
+
+@media (max-width: 991px) {
+  .investButton{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    height: 50%;
+    width: 100%;
+  }
+}
+
+@media (max-width: 991px) {
+  .labelLoanInvested{
+    text-align: center;
+  }
+}
+
+@media (max-width: 991px) {
+  .loanListCont{
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 991px) {
+  .loanTitle{
+    margin-bottom: 10px;
+  }
+}

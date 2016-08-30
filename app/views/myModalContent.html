@@ -1,0 +1,31 @@
+<div class="modal-header">
+    <div class="modal-title" id="modal-title">Invest in Loan</div>
+    <div>
+    	{{$ctrl.items.title}}
+    </div>
+</div>
+<div class="modal-body modalLoan" id="modal-body">
+	<div class="row">
+	    
+	    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+	    	Amount Available:&nbsp<span>£{{$ctrl.items.available}}</span>
+	    </div>
+	    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+	    	Loan ends in:&nbsp<span>{{ $ctrl.items.term_remaining | millToDate }}</span>
+	    </div>
+	</div>
+	<div class="row amountModalLoan">
+	    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+	    	Investment amount (£):&nbsp{{$ctrl.items.amount}}
+	    </div>
+	</div>
+	<div class="row investNowModalLoan">
+	    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+	    	<input type="number" class="inputModalLoan" ng-model="$ctrl.investNowVal">
+	    </div>
+	    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 buttonModalLoan">
+	    	<a class="btn btn-sm investButton ng-click-active" ng-click="$ctrl.investNow($ctrl.investNowVal)" tabindex="0">Invest now</a>
+	    </div>
+	</div>
+
+</div>
